@@ -1,5 +1,5 @@
-import CriaBotaoConcluir from './botaoConcluir.js'
-import DeletaTarefa from './botaoDeletarTarefa.js'
+import CriaBotaoConcluir from './componentes/botaoConcluir.js'
+import DeletaTarefa from './componentes/botaoDeletarTarefa.js'
 
     // Função que cria nova tarefa
     const criarTarefa = (evento) => {
