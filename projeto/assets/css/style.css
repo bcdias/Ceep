@@ -14,8 +14,13 @@ body {
   background-color: #0B2027;
   font-family: "Space Mono", monospace;
   padding: 1rem;
-  min-width: 400px;
-  min-height: 300px;
+  width: 500px;
+  min-height: 400px;
+}
+@media screen and (max-width: 540px) {
+  .todo-list {
+    width: 90%;
+  }
 }
 
 .title {
@@ -27,66 +32,13 @@ body {
 
 .form {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
-.form-input,
-.form-button {
-  border-radius: 0;
-  padding: 0.75rem;
-  font-size: 0.75rem;
+input{
+  margin-left: 0;
 }
 
-.form-input {
-  outline: none;
-  background-color: #F6F1D1;
-  border-color: rgba(255, 255, 255, 0.1);
-}
-
-.form-button {
-  border: 1px;
-  background: #F6F1D1;
-  text-transform: uppercase;
-  cursor: pointer;
-  margin-left: 0.25rem;
-}
-
-.form-button:hover {
-  color: #F6F1D1;
-  background: rgba(246, 241, 209, 0.1);
-}
-
-body {
-  margin: 0;
-}
-
-.app {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  min-height: 100vh;
-}
-
-.todo-list {
-  background-color: #0B2027;
-  font-family: "Space Mono", monospace;
-  padding: 1rem;
-  min-width: 400px;
-  min-height: 300px;
-}
-
-.title {
-  border-bottom: 1px solid rgba(246, 241, 209, 0.5);
-  font-size: 1.5rem;
-  font-family: "BioRhyme", serif;
-  color: #F6F1D1;
-}
-
-.form {
-  display: flex;
-  justify-content: center;
-}
 .form-input, .form-button {
   border-radius: 0;
   padding: 0.75rem;
@@ -96,7 +48,30 @@ body {
   outline: none;
   background-color: #F6F1D1;
   border-color: rgba(255, 255, 255, 0.1);
+  width: 73%;
 }
+
+@media screen  and (max-width: 540px) {
+  .form-input {
+   width: 69%;
+  }
+  
+}
+
+@media screen  and (max-width: 480px) {
+  .form-input {
+   width: 65%;
+  }
+  
+}
+
+@media screen  and (max-width: 423px) {
+  .form-input {
+   width: 60%;
+  }
+  
+}
+
 .form-button {
   border: 1px;
   background: #F6F1D1;
@@ -107,6 +82,10 @@ body {
 .form-button:hover {
   color: #F6F1D1;
   background: rgba(246, 241, 209, 0.1);
+}
+.form-priority{
+  color: #F6F1D1;
+  font-size: .8rem;
 }
 
 .list {
@@ -121,7 +100,22 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.5rem;
-  padding: 1rem 3rem;
+  padding: 1rem 0.5rem 1rem 1rem;
+}
+.task-priority{
+  background-color: rgba(255, 53, 53, 0.4);
+  color: #F6F1D1;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding: 1rem 0.5rem 1rem 1rem;
+
+}
+
+.task-button{
+  display: flex;
+  justify-content: space-between;
+  width: 28%;
 }
 
 .check-button, .delete-button {
@@ -131,6 +125,7 @@ body {
   outline: none;
   border-radius: 2px;
   cursor: pointer;
+  margin-left: 1rem;
 }
 
 .task.done .check-button {
@@ -153,10 +148,18 @@ body {
 
 .content {
   margin: 0;
+  width: 50%;
 }
 
-.task.done .content {
+.agrupa-botao{
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+.task.done .content, .task-priority.done.done .content {
   text-decoration: line-through;
 }
+
 
 /*# sourceMappingURL=style.css.map */

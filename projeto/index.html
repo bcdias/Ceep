@@ -16,14 +16,20 @@
       </h1>
   
       <form class="form" action="">
-        <input class="form-input" type="text" data-form-input>
-        <button class="form-button" data-form-button> Novo Item </button>
+        <div>
+          <input class="form-input" type="text" data-form-input>
+          <button class="form-button" data-form-button> Novo Item </button>
+        </div>
+        <div class="form-priority">
+          <input type="checkbox" name="priority" data-form-priority>
+          <label for="priority">Priority</label>
+        </div>
       </form>
 
-      <ul class="list">
+      <ul class="list" data-list-ul>
       
       </ul>
     </div>
 </body>
-<script src="listaDeTarefas.js"></script>
+<script type="module" src="main.js"></script>
 </html>
