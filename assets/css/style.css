@@ -78,6 +78,8 @@ input{
   text-transform: uppercase;
   cursor: pointer;
   margin-left: 0.25rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
 .form-button:hover {
   color: #F6F1D1;
