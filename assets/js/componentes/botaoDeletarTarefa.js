@@ -12,7 +12,7 @@ const DeletaTarefa = () => {
     // Adicionando estilo Css
     botaoDeletarTarefa.classList.add('delete-button');
 
-    // Verificando evento e e chamando função
+    // Verificando evento e chamando função
     botaoDeletarTarefa.addEventListener('click', deletarTarefa);
     
     return botaoDeletarTarefa;

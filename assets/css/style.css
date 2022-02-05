@@ -159,7 +159,7 @@ input{
   justify-content: flex-end;
   width: 50%;
 }
-.task.done .content, .task-priority.done.done .content {
+.task.done .content, .task-priority.done .content {
   text-decoration: line-through;
 }
 

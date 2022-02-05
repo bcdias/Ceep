@@ -12,7 +12,7 @@ const CriaBotaoConcluir = () => {
     botaoConcluir.innerText = 'Concluida';
 
 
-    // Escutando o botao
+    // Escutando o botão
     botaoConcluir.addEventListener('click', concluirTarefa);
     return botaoConcluir;
 }
