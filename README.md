@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ceep
 Projeto desenvolvido durante o curso “JS na Web: Manipule o DOM com JavaScript” da plataforma Alura.  
 O Ceep é uma aplicação de notas onde o usuário pode cria uma lista de notas com as tarefas precisão ser realizadas, por exemplo, dar banho nos cachorros. 
@@ -61,9 +62,4 @@ Para esse desafio decidi que as tarefas prioritárias teriam um estilo diferente
 Para destacar as tarefas prioritárias das demais, criei uma classe CSS chamada .task-priority e na função criarTarefa adicionei uma estrutura condicional para dizer qual a condição deve ser satisfeita para classe .task-priority ser adicionada a tag li.
 
 Para sempre adicionar uma tarefa no início da lista precisei aprender como utilizar a função insertBefore(), que me permite dizer qual elemento vai ser inserido no DOM e na frente de qual nó ele será inserido. Além de aprender como usar a propriedade childNode, que retorna uma coleção de nós filhos de um determinado elemento, o que me permitiu dizer que as tarefas prioritárias sempre devem entrar na posição 0 da listas de filhos do elemento ul.
-
-
-
-
-
 
