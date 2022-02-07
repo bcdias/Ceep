@@ -12,7 +12,7 @@ O Ceep é uma aplicação de notas onde o usuário pode cria uma lista de notas 
 
 ## :hammer: Funcionalidades do projeto
 
-![gif com as funcionalidades do projeto](/assets/Ceep.gif);
+![gif com as funcionalidades do projeto](/assets/CeepGif.gif);
 
 - `Funcionalidade 1`: Criar listada de tarefa
 - `Funcionalidade 2`: Marcar uma tarefa como concluida
