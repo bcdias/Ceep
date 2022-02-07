@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 # Ceep
+
+![imagem do aplicativo](/assets/print.png);
+
 Projeto desenvolvido durante o curso “JS na Web: Manipule o DOM com JavaScript” da plataforma Alura.  
 O Ceep é uma aplicação de notas onde o usuário pode cria uma lista de notas com as tarefas precisão ser realizadas, por exemplo, dar banho nos cachorros. 
 
@@ -9,6 +12,8 @@ O Ceep é uma aplicação de notas onde o usuário pode cria uma lista de notas 
 
 ## :hammer: Funcionalidades do projeto
 
+![gif com as funcionalidades do projeto](/assets/Ceep.gif);
+
 - `Funcionalidade 1`: Criar listada de tarefa
 - `Funcionalidade 2`: Marcar uma tarefa como concluida
 - `Funcionalidade 3`: Excluir tarefas
@@ -16,9 +21,9 @@ O Ceep é uma aplicação de notas onde o usuário pode cria uma lista de notas 
 
 ## :heavy_check_mark: Técnologias utilizadas
 
-- `Funcionalidade 1`: HTML
-- `Funcionalidade 2`: CSS
-- `Funcionalidade 3`: JavaScript
+* HTML
+* CSS
+* JavaScript
 
 ## :dart: Objetivo
 
