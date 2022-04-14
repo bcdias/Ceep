@@ -48,29 +48,9 @@ input{
   outline: none;
   background-color: #F6F1D1;
   border-color: rgba(255, 255, 255, 0.1);
-  width: 73%;
+  width: 37%;
 }
 
-@media screen  and (max-width: 540px) {
-  .form-input {
-   width: 69%;
-  }
-  
-}
-
-@media screen  and (max-width: 480px) {
-  .form-input {
-   width: 65%;
-  }
-  
-}
-
-@media screen  and (max-width: 423px) {
-  .form-input {
-   width: 60%;
-  }
-  
-}
 
 .form-button {
   border: 1px;
@@ -149,15 +129,16 @@ input{
 }
 
 .content {
+  color: #F6F1D1;
   margin: 0;
-  width: 50%;
+  width: 70%;
 }
 
 .agrupa-botao{
   align-items: center;
   display: flex;
   justify-content: flex-end;
-  width: 50%;
+  width: 30%;
 }
 .task.done .content, .task-priority.done .content {
   text-decoration: line-through;

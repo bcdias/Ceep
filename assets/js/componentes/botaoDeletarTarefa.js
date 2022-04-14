@@ -1,38 +1,28 @@
 
 // Criando funcionalidade deletar tarefa
 
-const DeletaTarefa = () => {
+const DeletaTarefa = (id, atualiza) => {
 
-    // Criando elemento botão deletar tarefa
     const botaoDeletarTarefa = document.createElement('button');
 
-    // Adicionando texto ao botão
     botaoDeletarTarefa.innerText = 'Deletar';
 
-    // Adicionando estilo Css
     botaoDeletarTarefa.classList.add('delete-button');
 
-    // Verificando evento e chamando função
-    botaoDeletarTarefa.addEventListener('click', deletarTarefa);
+    botaoDeletarTarefa.addEventListener('click', () => deletarTarefa(id, atualiza));
     
     return botaoDeletarTarefa;
     
 }
 
-// Criando função deletar tarefa
-const deletarTarefa = (evento) => {
+const deletarTarefa = (id, atualiza) => {
 
-    // Selecionando botão clicado
-    const verifiarBotao = evento.target;
-
-    // Capturando elemento pai do botão
-    const tarefaDeletada = verifiarBotao.parentElement;
-
-    const verificaDiv = tarefaDeletada.parentElement;
-
-    // Removendo tarefa
-    verificaDiv.remove();
-
+    const index = id
+    const tarefasCadastradas = JSON.parse(localStorage.getItem('tarefas'))
+    tarefasCadastradas.splice(index, 1)
+    localStorage.setItem('tarefas', JSON.stringify(tarefasCadastradas))
+    atualiza()
+     
 }
 
 export default DeletaTarefa;

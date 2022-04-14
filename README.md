@@ -29,7 +29,7 @@ O objetivo principal do projeto foi aprende a utiliza JavaScript para selecionar
 
 ## :closed_book: Aprendizados 
 
-Durante o curso aprendi que o Document Object Model (DOM) é uma representação do documento HTML, criada pelo navegador, estruturada como uma árvore de objetos. Através do HTML DOM é possível alterar, adicionar ou excluir elementos HTML.
+Durante o curso aprendi que o Document Object Model (DOM) é uma representação do documento HTML, criada pelo navegador, estruturada como uma árvore de objetos. Através do HTML DOM é possível alterar, adicionar ou excluir elementos HTML.    
 
 Outro aprendizado que obtive durante o curso foi como percorrer a árvore do DOM e encontrar o elemento que desejamos utilizar. Para isso podemos usar diversos métodos, por exemplo: 
 
